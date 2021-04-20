@@ -1,0 +1,52 @@
+
+html {
+    font-family: 'Dosis', sans-serif; /* this should be the rest of the output you got from Google fonts */
+    background-image: url("../images/b1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+  }
+body {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgba(145, 122, 89, 0.65) ;
+    opacity: 1;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 1em;
+    text-align: center;
+  }
+  
+p { margin: auto;
+    width: 80%;
+    color: white;
+    font-size: 20px;    
+    letter-spacing: 1px;
+    }
+img {
+    width: 400px;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 1em;
+    }
+h1 {
+    margin: 0; 
+    color: white;
+    line-height: 50%;
+    font-size: 60px;
+    text-align: center;
+  }
+h3 {
+    line-height: 20%;
+    font-size: 20px;
+    color: white; 
+}
+h4 {
+  line-height: 10%;
+  font-size: 15px;
+  color: black; 
+}
