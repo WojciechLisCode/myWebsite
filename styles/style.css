@@ -99,6 +99,7 @@ h1 {
     font-family: 'Hammersmith One', sans-serif;
     font-size: 15px;
   }
+}
 @media (min-width: 700px) {
   #expand {
     font-family: 'Hammersmith One', sans-serif;
