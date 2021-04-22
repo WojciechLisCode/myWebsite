@@ -8,6 +8,9 @@ html {
   background-attachment: fixed;
 }
 
+#description {
+  margin: 5px 10px;
+}
 
 body {
   width: 80%;
@@ -24,11 +27,11 @@ body {
 
 .body {
   max-height: 120px;
-  transition: max-height 1s ease-out
+  transition: max-height 2s ease-out
 }
 .body.expanded {  
   max-height: 10000px;
-  transition: max-height 1s ease-in
+  transition: max-height 2s ease-in
 }
 
 @keyframes rotate {
@@ -44,7 +47,7 @@ body {
 }
 
 #expand {
-  font-family: 'Merienda', sans-serif; 
+  font-family: 'Hammersmith One', sans-serif;
   font-size: 10px;
   margin: 3px;
 }
@@ -64,23 +67,23 @@ body {
 }
 
 .descriptionTransition {
-	transition: opacity 1s ease;
+	transition: opacity 2s ease;
 }
 
 p { 
-  margin: auto;
-  width: 80%;
+  margin: 10px;
   color: white;
   font-size: 12px;    
   letter-spacing: 1px;
 }
 
 img {
-  width: 300px;
-  max-width: 60%;
+  width: 200px;
+  max-width: 60%; 
   display: block;
   margin: 3px auto;
   border-radius: 1em;
+  
 }
 
 h1 {
@@ -88,10 +91,27 @@ h1 {
   color: white;
   font-size: 25px;
 }
-
+@media (min-width: 500px) {
+  p{
+    font-size: 20px;
+  }
+  #expand {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 15px;
+  }
 @media (min-width: 700px) {
+  #expand {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 18px;
+  }
   img {
     float: right;
-    margin: 0 auto;
+    margin: 20px;
+  }
+  h1{
+    font-size: 55px;
+  }
+  p{
+    font-size: 20px;
   }
 }
