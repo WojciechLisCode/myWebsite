@@ -1,6 +1,6 @@
 
 html {
-  font-family: 'Ubuntu', sans-serif; 
+  font-family: 'Hammersmith One', sans-serif;
   background-image: url("../images/b1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,7 +14,6 @@ body {
   max-width: 800px;
   margin: 50px auto;
   background-color: rgba(145, 122, 89, 0.85);
-  padding: 10px;
   border: 10px solid;
   text-align: center;
 
@@ -45,9 +44,9 @@ body {
 }
 
 #expand {
-  font-family: 'Ubuntu', sans-serif; 
-  font-size: 20px;
-
+  font-family: 'Merienda', sans-serif; 
+  font-size: 10px;
+  margin: 3px;
 }
 
 .descriptionVisible {
@@ -72,7 +71,7 @@ p {
   margin: auto;
   width: 80%;
   color: white;
-  font-size: 20px;    
+  font-size: 12px;    
   letter-spacing: 1px;
 }
 
@@ -80,14 +79,14 @@ img {
   width: 300px;
   max-width: 80%;
   display: block;
-  margin: 20px auto;
+  margin: 3px auto;
   border-radius: 1em;
 }
 
 h1 {
   margin: 0; 
   color: white;
-  font-size: 60px;
+  font-size: 25px;
 }
 
 @media (min-width: 700px) {
