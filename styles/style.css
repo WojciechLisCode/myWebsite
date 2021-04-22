@@ -14,10 +14,25 @@ body {
   margin: 50px auto;
   background-color: rgba(145, 122, 89, 0.65);
   padding: 10px;
-  border: 5px solid black;
-  border-radius: 1em;
+  border: 10px solid;
   text-align: center;
+  border-image: linear-gradient(var(--angle), rgba(145, 122, 89, 0.1), rgba(145, 122, 89, 0.1), black,rgba(145, 122, 89, 0.1), rgba(145, 122, 89, 0.1)) 1;
+  
+  animation: 10s rotate linear infinite;
 }
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
 
 p { 
   margin: auto;
