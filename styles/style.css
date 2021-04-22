@@ -16,10 +16,15 @@ body {
   padding: 10px;
   border: 10px solid;
   text-align: center;
+
   border-image: linear-gradient(var(--angle), rgba(145, 122, 89, 0.1), rgba(145, 122, 89, 0.1), black,rgba(145, 122, 89, 0.1), rgba(145, 122, 89, 0.1)) 1;
   
   animation: 10s rotate linear infinite;
 }
+
+/* .bodySmall {
+  max-height: 150px;
+} */
 
 @keyframes rotate {
   to {
@@ -33,6 +38,29 @@ body {
   inherits: false;
 }
 
+#expand {
+  font-family: 'Ubuntu', sans-serif; 
+  font-size: 20px;
+
+}
+
+.descriptionVisible {
+  display: block;
+  opacity: 1; 
+}
+
+.descriptionHidden {
+  display: none;
+}
+
+.descriptionTransition.descriptionHidden {
+	display: block;
+	opacity: 0;
+}
+
+.descriptionTransition {
+	transition: opacity 1s ease;
+}
 
 p { 
   margin: auto;
@@ -53,19 +81,7 @@ img {
 h1 {
   margin: 0; 
   color: white;
-  line-height: 50%;
   font-size: 60px;
-}
-
-h3 {
-  line-height: 20%;
-  font-size: 20px;
-  color: white; 
-}
-h4 {
-  line-height: 10%;
-  font-size: 15px;
-  color: black; 
 }
 
 @media (min-width: 700px) {

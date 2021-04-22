@@ -9,22 +9,25 @@
     <link href="styles/style.css" rel="stylesheet">
 
   </head>
-  <body>
+  <body id="body" class="bodySmall">
 
     <br>
     <h1>Wojciech Lis</h1>
-    <h3>Born 21.12.1986</h3>
-    <img src="images/myPhoto.jpg" alt="My picture">
-    <p id="paragraph">
-      I was born in the south of Poland. In 2009 I've come to the Netherlands. 
-      Since then, while living in Utrecht, I was working for few logistics companies. 
-      During that time, I've learned a lot about efficient warehousing, planning within time restraints, and "on the spot" problem-solving. 
-      Meanwhile, I've spent my free time on DIY's (metal and woodworking, electronics), computers (gaming, overclocking, and small repairs), 
-      music (poorly playing on bass and acoustic guitar), and few other little things. 
-      Recently I've decided, that it is time to leave warehouses behind and try something more challenging. 
-      That's how I've found Codaisseur. I hope that this course will help me start my journey into the world of Web Development.
-    </p>
+    <button id="expand">...about me...</button>
+    <div id = "description" class = "descriptionHidden">
+      <img src="images/myPhoto.jpg" alt="My picture">
+      <p id="paragraph">
+        I was born in 1986 in the south of Poland. In 2009 I've come to the Netherlands. 
+        Since then, while living in Utrecht, I was working for few logistics companies. 
+        During that time, I've learned a lot about efficient warehousing, planning within time restraints, and "on the spot" problem-solving. 
+        Meanwhile, I've spent my free time on DIY's (metal and woodworking, electronics), computers (gaming, overclocking, and small repairs), 
+        music (poorly playing on bass and acoustic guitar), and few other little things. 
+        Recently I've decided, that it is time to leave warehouses behind and try something more challenging. 
+        That's how I've found Codaisseur. I hope that this course will help me start my journey into the world of Web Development.
+      </p>
+    </div>
     <br>
-
   </body>
+
+  <script src="./script/main.js"></script>
 </html>
