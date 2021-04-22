@@ -27,11 +27,11 @@ body {
 
 .body {
   max-height: 120px;
-  transition: max-height 2s ease-out
+  transition: max-height 1s ease-out
 }
 .body.expanded {  
   max-height: 10000px;
-  transition: max-height 2s ease-in
+  transition: max-height 1s ease-in
 }
 
 @keyframes rotate {
@@ -67,7 +67,7 @@ body {
 }
 
 .descriptionTransition {
-	transition: opacity 2s ease;
+	transition: opacity 1s ease;
 }
 
 p { 
