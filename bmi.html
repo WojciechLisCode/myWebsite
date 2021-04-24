@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles/bmi.css">
+        <title>BMI Calculator - Wojciech Lis</title>
+  
+    </head>
+    <body>
+        <h1>BMI CALCURATOR</h1>
+        <h3>ENTER YOUR DATA</h3>
+        <FORM NAME="bmiForm" ACTION="" METHOD="GET">
+            
+            <div class ="dataInput">
+                <label for="weight">Enter your weight in kilograms:</label><br>
+                <INPUT id = "weight" type="number" name="weight" value=""><br>
+            </div>
+            
+            <div class ="dataInput">
+                <label for="height">Enter your height in meters:</label><br>
+                <INPUT id="height" type="number" name="height" value=""><br>
+            </div>
+
+            <div class ="dataInput">
+                <label for="age">Enter your age:</label><br>
+                <input id="age" type="number" name="age" value=""><br>
+            </div>
+
+            <div class ="dataInput">
+                <label for="genderMale">Male</label>
+                <input id="genderMale" type="radio" name="gender" value="Male" checked>
+                <label for="genderFemale">Female</label>
+                <input id="genderFemale" type="radio" name="gender" value="Female"><br>
+            </div>
+
+            <div class ="dataInput">
+            <label for="exercise">Exercise:</label>
+            <input id="exercise" type="checkbox" name="exercise"><br>
+            </div>
+        
+            <INPUT id ="btn" TYPE="button" name="button" Value="ENTER">
+        </FORM>    
+        <div id="results">
+            <h3>RESULTS:</h3>
+            <p id="baseData"></p>
+            <p id="calculations"></p>
+            <p id="diet"></p>
+        </div>
+    </body>
+    <script src="./script/bmi.js"></script>
+</html>

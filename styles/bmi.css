@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #8aafe0;
+}
+#weight, #height , #age {
+    width: 50px;
+    /* margin: 10px; */
+}
+.dataInput {
+    padding: 5px;
+}
+#btn {
+    margin: 10px;
+}
